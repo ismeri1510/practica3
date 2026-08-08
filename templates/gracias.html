@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Gracias</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='estilos.css') }}"
+    />
+  </head>
+  <body>
+    <div class="tarjeta">
+      <h1>¡Gracias por tu mensaje!</h1>
+      <p><strong>{{ nombre }} </strong></p>
+      <p>Tu mensaje fue:</p>
+      <p>"{{ mensaje }}"</p>
+      <p>Ya quedo regitrado</p>
+      <a href="/">Volver al inicio</a>
+    </div>
+  </body>
+</html>

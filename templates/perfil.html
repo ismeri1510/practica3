@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Perfil</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='estilos.css') }}"
+    />
+  </head>
+
+  <body>
+    <header>
+      <h1>Mi Perfil de Estudiante</h1>
+    </header>
+    <nav>
+      <a href="/">Inicio</a>
+      <a href="#">Cursos</a>
+      <a href="/firma">Firma libros de visita</a>
+    </nav>
+
+    <section id="perfil">
+      <img
+        src="https://www.guatemala.com/aprende/_next/image?url=https%3A%2F%2Fwww.guatemala.com%2Fwp-content%2Fuploads%2F2016%2F09%2Fguatemala-universidadmarianogalvez.jpg&w=1080&q=75"
+        alt="Imagen de perfil"
+      />
+      <h2>Ilvia Duarte</h2>
+      <p>Estudiante de Ingeniería en Sistemas</p>
+      <h3>Sobre mí</h3>
+      <p>Hola, soy Ilvia Duarte, estudiante de Ingeniería en Sistemas.</p>
+    </section>
+
+    <section>
+      <h2>Mis cursos</h2>
+      <ul>
+        <li>Curso de Redes</li>
+        <li>Curso de Desarrollo Web</li>
+        <li>Curso de Bases de Datos</li>
+      </ul>
+
+      <h3>Horario</h3>
+      <table>
+        <tr>
+          <th>Día</th>
+          <th>Hora</th>
+          <th>Curso</th>
+        </tr>
+        <tr>
+          <td>Lunes</td>
+          <td>8:00 - 10:00</td>
+          <td>Curso de Redes</td>
+        </tr>
+        <tr>
+          <td>Miércoles</td>
+          <td>10:00 - 12:00</td>
+          <td>Curso de Desarrollo Web</td>
+        </tr>
+        <tr>
+          <td>Viernes</td>
+          <td>14:00 - 16:00</td>
+          <td>Curso de Bases de Datos</td>
+        </tr>
+      </table>
+    </section>
+
+    <article>
+      <h2>Experiencia</h2>
+      <p>
+        Aprendi que
+        <span class="destacado">CSS</span>
+        tiene tres formas de aplicarse
+      </p>
+    </article>
+
+    <aside>
+      <details>
+        <summary>Que es html</summary>
+        <p>es un lenguaje de marcado para crear páginas web</p>
+      </details>
+    </aside>
+
+    <footer>2026 Ilvia Duarte</footer>
+  </body>
+</html>
